@@ -5,7 +5,9 @@ In this project, I’m creating a personal portfolio website. This website provi
 
 Features and Functionality:
 
-Intuitive Navigation: The portfolio website is designed with easy navigation in mind, allowing users to seamlessly explore different sections.
+Intuitive Navigation:
+
+The portfolio website is designed with easy navigation in mind, allowing users to seamlessly explore different sections.
 Effortless Contact: A dedicated contact section simplifies user communication, enabling visitors to reach out through a user-friendly contact form.
 User-Centric Design: Leveraging logos and images, the website prioritizes user enjoyment and engagement, creating an aesthetically pleasing environment.
 
@@ -33,6 +35,8 @@ Portfolio Expansion: Continuously updating and expanding the project section to 
 Interactivity Improvements: Enhancing user engagement through interactive elements and dynamic content.
 Performance Optimization: Streamlining the website’s performance for even faster loading times.
 Mobile Responsiveness: Ensuring seamless functionality and aesthetics across various devices.
+
 Contact Information:
+
 GitHub: https://github.com/giddy77
 LinkedIn: https://www.linkedin.com/in/gideon-sipoi-6513911a3/
