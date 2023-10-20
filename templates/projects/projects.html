@@ -7,17 +7,16 @@
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/favicon.png">
   <link href="./assets/favicon.ico" rel="icon">
 
   <title>portfolio</title>  
 
-<link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
+<link href="./static/style.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -39,7 +38,7 @@
         <ul class="nav navbar-nav ">
           <li><a href="{{ url_for('my_home') }}" title="">Home</a></li>
           <li><a href="{{ url_for('myProjects')}}" title="">My projects</a></li>
-          <li><a href="./about.html" title="">About me</a></li>
+          <li><a href="./../about.html" title="">About me</a></li>
           <li><a href="./contact.html" title="">Contact</a></li>
 
         </ul>
@@ -79,14 +78,14 @@
                   {% for project in projects %}
                     <div class="col-sm-4">
 
-                      <a href="./work.html" title="" class="black-image-project-hover">
-                        <img src="./static/assets/images/work01-hover.jpg" alt="" class="img-responsive">
+                      <a href="./work.html" title="" class="project-hover">
+                        <img src="./static/assets/images/projects.jpg" alt="" class="img-responsive" style="border-radius: 20px;">
                       </a>
-                      <div class="card-container card-container-lg">
-                        <h4>001/006</h4>
+                      <div class="card-container card-container-lg" style="border-radius: 10px;">
+                        <h4>{{project.id }}</h4>
                         <h3>{{ project.name }}</h3>
                         <p>{{ project.description }}</p>
-                        <a href="./work.html" title="" class="btn btn-default">Discover</a>
+                        <a href="{{ url_for('discover',project_id=project.id) }}" title="" class="btn btn-default">Discover</a>
                         <a href="{{ url_for('delete_project',project_id=project.id) }}" title="" class="btn btn-default">delete</a>
                       </div>
                     </div>
@@ -94,48 +93,6 @@
                     
                 </div>
                 <!--/row-->
-            </div>
-            <!--/item-->
-            <div class="item">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <a href="./work.html" class="black-image-project-hover">
-                      <img src="./static/assets/images/work02-hover.jpg" alt="Image" class="img-responsive">
-                    </a>
-                    <div class="card-container">
-                      <h4>004/006</h4>
-                      <h3>Nulla scelerisque</h3>
-                      <p>Proin pharetra metus id iaculis dignissim. In aliquet lorem ut ex ullamcorper.</p>
-                      <a href="./work.html" class="btn btn-default">Discover</a>
-                    </div>
-                  </div>
-                   <div class="col-sm-4">
-                      <a href="./work.html" class="black-image-project-hover">
-                        <img src="./static/assets/images/work01-hover.jpg" alt="Image" class="img-responsive">
-                      </a>
-                      <div class="card-container">
-                        <h4>005/006</h4>
-                        <h3>Fringilla sit amet</h3>
-                        <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies.</p>
-                        <a href="./work.html" class="btn btn-default">Discover</a>
-                      </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                      <a href="./work.html" class="black-image-project-hover">
-                        <img src="./static/assets/images/work03-hover.jpg" alt="Image" class="img-responsive">
-                      </a>
-                      <div class="card-container">
-                        <h4>006/006</h4>
-                        <h3>Vivamus vestibulum</h3>
-                        <p>Fusce sed hendrerit augue, a rhoncus velit. In non lorem mattis, tempor sem sit amet.</p>
-                        <a href="./work.html" class="btn btn-default">Discover</a>
-                      </div>
-                    </div>
-                    
-                </div>
-                <!--/row-->
-            </div>
             
             <!--/item-->
         </div>
@@ -186,6 +143,6 @@
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./main.70a66962.js"></script></body>
+--> <script type="text/javascript" src="./main.js"></script></body>
 
 </html>

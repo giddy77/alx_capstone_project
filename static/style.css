@@ -4044,7 +4044,9 @@ textarea{
 }
 .navbar-default .navbar-collapse,.navbar-inverse .navbar-collapse{
     margin:10px -5px;
-    box-shadow:none
+    box-shadow:none;
+    display:flex;
+    
 }
 .navbar-default .navbar-collapse .navbar-nav,.navbar-inverse .navbar-collapse .navbar-nav{
     padding:20px
@@ -4153,4 +4155,4 @@ textarea{
     float:left;
     margin-right:5px
 }
-/*# sourceMappingURL=main.70a66962.map*/
+/*# sourceMappingURL=main.map*/
