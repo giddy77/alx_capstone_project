@@ -13,6 +13,8 @@ CSS: To style and enhance the visual experience.
 JavaScript: For interactivity and dynamic elements.
 Python (Flask): To facilitate server-side operations.
 Screenshots/ Demo:
+file:///home/wolf/Pictures/Screenshots/Screenshot%20from%202023-10-17%2012-30-04.PNG
+
 
 Roadmap and Future Enhancements:
 This project will remain a work in progress, evolving in tandem with my web developement journey. Future enhancements may include:
