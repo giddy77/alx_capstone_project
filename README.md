@@ -20,7 +20,7 @@ Python (Flask): To facilitate server-side operations.
 
 Screenshots/ Demo:
 
-![demo1](static/assets/homepage.PNG)
+![demo1](static/assets/homepagee.png)
 ![demo1](static/assets/projects.PNG)
 ![demo1](static/assets/about.PNG)
 
