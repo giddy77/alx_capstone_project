@@ -31,12 +31,12 @@ This project harnesses the power of several core technologies and frameworks to 
 
 This project will remain a work in progress, evolving in tandem with my web developement journey. Future enhancements may include:
 
-*Portfolio Expansion:Continuously updating and expanding the project section to reflect new skills and accomplishments.
-Interactivity Improvements: Enhancing user engagement through interactive elements and dynamic content.
-Performance Optimization: Streamlining the website’s performance for even faster loading times.
-Mobile Responsiveness: Ensuring seamless functionality and aesthetics across various devices.
+*Portfolio Expansion:*Continuously updating and expanding the project section to reflect new skills and accomplishments.
+*Interactivity Improvements:* Enhancing user engagement through interactive elements and dynamic content.
+*Performance Optimization:* Streamlining the website’s performance for even faster loading times.
+*Mobile Responsiveness:* Ensuring seamless functionality and aesthetics across various devices.
 
-Contact Information:
+## Contact Information:
 
 **GitHub:** [giddy77](https://github.com/giddy77 "Wolf Dev")
 **LinkedIn:** [GideonSipoi](https://www.linkedin.com/in/gideon-sipoi-6513911a3/ "Wolf Dev")
