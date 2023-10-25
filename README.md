@@ -38,5 +38,5 @@ Mobile Responsiveness: Ensuring seamless functionality and aesthetics across var
 
 Contact Information:
 
-GitHub: [giddy77](https://github.com/giddy77 "Wolf Dev")
-LinkedIn: [GideonSipoi](https://www.linkedin.com/in/gideon-sipoi-6513911a3/ "Wolf Dev")
+**GitHub:** [giddy77](https://github.com/giddy77 "Wolf Dev")
+**LinkedIn:** [GideonSipoi](https://www.linkedin.com/in/gideon-sipoi-6513911a3/ "Wolf Dev")
