@@ -40,3 +40,4 @@ This project will remain a work in progress, evolving in tandem with my web deve
 
 * **GitHub:** [giddy77](https://github.com/giddy77 "Wolf Dev")
 * **LinkedIn:** [GideonSipoi](https://www.linkedin.com/in/gideon-sipoi-6513911a3/ "Wolf Dev")
+* **twitter:** [WolfDev](https://x.com/GiddyJunior4?s=09, "Wolf Dev")
